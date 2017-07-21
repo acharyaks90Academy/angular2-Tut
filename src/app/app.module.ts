@@ -8,6 +8,7 @@ import { ServerComponent } from './server/server.component';
 import { ServersComponent } from './servers/servers.component';
 import { AtrrComponent } from './atrr/atrr.component';
 import { ClsComponent } from './cls/cls.component';
+import { InputeventComponent } from './inputevent/inputevent.component';
 
 
 @NgModule({
@@ -16,7 +17,8 @@ import { ClsComponent } from './cls/cls.component';
     ServerComponent,
     ServersComponent,
     AtrrComponent,
-    ClsComponent
+    ClsComponent,
+    InputeventComponent
   ],
   imports: [
     BrowserModule,
