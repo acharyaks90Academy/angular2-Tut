@@ -9,6 +9,7 @@ import { ServersComponent } from './servers/servers.component';
 import { AtrrComponent } from './atrr/atrr.component';
 import { ClsComponent } from './cls/cls.component';
 import { InputeventComponent } from './inputevent/inputevent.component';
+import { FormmodelComponent } from './formmodel/formmodel.component';
 
 
 @NgModule({
@@ -18,7 +19,8 @@ import { InputeventComponent } from './inputevent/inputevent.component';
     ServersComponent,
     AtrrComponent,
     ClsComponent,
-    InputeventComponent
+    InputeventComponent,
+    FormmodelComponent
   ],
   imports: [
     BrowserModule,
