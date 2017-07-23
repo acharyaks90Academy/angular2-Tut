@@ -3,7 +3,11 @@ import { Component, OnInit } from '@angular/core';
 @Component({
   selector: 'app-style-prc',
   templateUrl: './style-prc.component.html',
-  styleUrls: ['./style-prc.component.css']
+  styles : [`
+    fcolor{
+      color:white;
+    }
+  `]
 })
 export class StylePrcComponent implements OnInit {
 
