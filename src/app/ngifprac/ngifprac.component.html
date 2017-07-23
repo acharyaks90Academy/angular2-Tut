@@ -2,4 +2,5 @@
   ngifprac works!
   <button (click)="flagUp()">Falg Up/Down</button>
 </p>
-<span *ngIf="flag">Hi NG IF Directice working </span>
+<span *ngIf="flag; else nodata">Hi NG IF Directice working </span>
+<ng-template #nodata ><p>The Directive Working with else</ng-template>
