@@ -11,6 +11,7 @@ import { ClsComponent } from './cls/cls.component';
 import { InputeventComponent } from './inputevent/inputevent.component';
 import { FormmodelComponent } from './formmodel/formmodel.component';
 import { NgifpracComponent } from './ngifprac/ngifprac.component';
+import { StylePrcComponent } from './style-prc/style-prc.component';
 
 
 @NgModule({
@@ -22,7 +23,8 @@ import { NgifpracComponent } from './ngifprac/ngifprac.component';
     ClsComponent,
     InputeventComponent,
     FormmodelComponent,
-    NgifpracComponent
+    NgifpracComponent,
+    StylePrcComponent
   ],
   imports: [
     BrowserModule,
