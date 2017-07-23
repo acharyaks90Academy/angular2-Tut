@@ -10,6 +10,7 @@ import { AtrrComponent } from './atrr/atrr.component';
 import { ClsComponent } from './cls/cls.component';
 import { InputeventComponent } from './inputevent/inputevent.component';
 import { FormmodelComponent } from './formmodel/formmodel.component';
+import { NgifpracComponent } from './ngifprac/ngifprac.component';
 
 
 @NgModule({
@@ -20,7 +21,8 @@ import { FormmodelComponent } from './formmodel/formmodel.component';
     AtrrComponent,
     ClsComponent,
     InputeventComponent,
-    FormmodelComponent
+    FormmodelComponent,
+    NgifpracComponent
   ],
   imports: [
     BrowserModule,
