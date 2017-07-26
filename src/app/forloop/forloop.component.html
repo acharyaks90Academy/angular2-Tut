@@ -1,0 +1,6 @@
+<p>
+  forloop works!
+</p>
+<button (click)="addServer();" >Add server </button>
+<input type="text" [(ngModel)]="server">
+<span *ngFor="let server of servers"> {{server}}</span>

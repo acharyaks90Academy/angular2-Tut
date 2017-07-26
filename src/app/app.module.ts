@@ -12,6 +12,7 @@ import { InputeventComponent } from './inputevent/inputevent.component';
 import { FormmodelComponent } from './formmodel/formmodel.component';
 import { NgifpracComponent } from './ngifprac/ngifprac.component';
 import { StylePrcComponent } from './style-prc/style-prc.component';
+import { ForloopComponent } from './forloop/forloop.component';
 
 
 @NgModule({
@@ -24,7 +25,8 @@ import { StylePrcComponent } from './style-prc/style-prc.component';
     InputeventComponent,
     FormmodelComponent,
     NgifpracComponent,
-    StylePrcComponent
+    StylePrcComponent,
+    ForloopComponent
   ],
   imports: [
     BrowserModule,
